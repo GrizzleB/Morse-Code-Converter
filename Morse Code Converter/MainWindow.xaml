@@ -5,13 +5,13 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Morse_Code_Converter"
         mc:Ignorable="d"
-        Title="Morse Code Converter" Height="301.247" Width="359.356">
+        Title="Morse Code Converter" Height="412.578" Width="359.356">
     <Grid>
         <TextBox x:Name="txtInput" HorizontalAlignment="Left" Height="103" Margin="10,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="331" FontFamily="Verdana" FontSize="16"/>
-        <Button x:Name="btnGo" Content="Go!" HorizontalAlignment="Left" Margin="10,244,0,0" VerticalAlignment="Top" Width="75" Click="btnGo_Click"/>
-        <Button x:Name="btnClear" Content="Clear!" HorizontalAlignment="Left" Margin="266,244,0,0" VerticalAlignment="Top" Width="75" Click="btnClear_Click"/>
+        <Button x:Name="btnGo" Content="Go!" HorizontalAlignment="Left" Margin="266,118,0,0" VerticalAlignment="Top" Width="75" Click="btnGo_Click"/>
+        <Button x:Name="btnClear" Content="Clear!" HorizontalAlignment="Left" Margin="266,352,0,0" VerticalAlignment="Top" Width="75" Click="btnClear_Click"/>
         <Label Content="^^ Text to convert goes here" HorizontalAlignment="Left" Margin="10,112,0,0" VerticalAlignment="Top" FontFamily="Verdana"/>
-        <ListBox x:Name="lstOutput" HorizontalAlignment="Left" Height="103" Margin="10,136,0,0" VerticalAlignment="Top" Width="331" FontFamily="Verdana" FontWeight="Bold" FontSize="16"/>
+        <ListBox x:Name="lstOutput" HorizontalAlignment="Left" Height="204" Margin="10,143,0,0" VerticalAlignment="Top" Width="331" FontFamily="Verdana" FontWeight="Bold" FontSize="16"/>
 
     </Grid>
 </Window>
